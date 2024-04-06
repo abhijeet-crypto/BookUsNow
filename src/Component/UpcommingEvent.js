@@ -41,6 +41,10 @@ const UpcommingEvent = () => {
 
   return (
     <div className="text-black flex justify-center items-center pt-20 flex-col">
+      <div className="w-10/12 flex justify-between items-center pb-4">
+        <div className="text-lg font-medium">Upcomming Events -&gt;</div>
+        <div className="font-medium">See All</div>
+      </div>
       <div
         className="w-10/12 flex flex-row justify-between flex-wrap overflow-y-scroll max-h-[600px] remove"
         ref={containerRef}

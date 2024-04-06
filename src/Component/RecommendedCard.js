@@ -31,16 +31,16 @@ const RecommendedCard = ({ data, img }) => {
 
   return (
     <>
-      <div className="min-w-72 relative z-0">
+      <div className="min-w-64 md:min-w-72 relative z-0">
         <img alt="demo" src={image} className=""></img>
         <div className="absolute bottom-1 z-10 text-white flex flex-col w-fit">
           <div className="p-2 flex flex-row  justify-between gap-4 items-center">
-            <div className="text-l text-nowrap  overflow-x-scroll remove w-36 ">
+            <div className="text-s md:text-l text-nowrap  overflow-x-scroll remove w-28 md:w-36 ">
               {data.eventName}
             </div>
             <div className="text-xs">{output}</div>
           </div>
-          <div className="flex flex-row justify-between items-center px-2 pb-2 gap-4">
+          <div className="flex flex-row justify-between items-center px-2 pb-2 gap-2 md:gap-4">
             <div className="flex flex-row gap-1 items-center justify-center">
               <img alt="logo" src="location.svg" className="h-3"></img>
               <div className="text-xs">{data.cityName}</div>
