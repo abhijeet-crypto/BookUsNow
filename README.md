@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# BookUsNow
+ The Ultimate Destination for Upcoming and Recommended Events
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Demo](#usage)
+- [Youtube Clone](#Youtube-Clone)
 
-In the project directory, you can run:
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You can discover a plethora of upcoming and recommended events! This website provides a seamless and responsive experience, ensuring you can explore events effortlessly whether you're on your desktop or mobile device. Fetching events directly from our APIs, keeps you updated with the latest happenings.
 
-### `npm test`
+## BookUsNow: Summary of Design and Technical Choices
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Design Overview:
+Responsive Layout: Tailwind CSS facilitates seamless adaptation to different screen sizes, ensuring a consistent user experience across devices.
 
-### `npm run build`
+Dynamic Event Retrieval: Leveraging React, EventHub fetches events dynamically from provided APIs, ensuring real-time access to event information.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+SVG Image Integration Challenge: Overcame difficulties in converting SVG images from Google Drive links, ensuring successful integration into the project.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Technical Decisions:
+React Framework: Modular and reusable components enable efficient development of complex user interfaces.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Tailwind CSS: Predefined utility classes streamline styling and foster rapid prototyping with a sleek design aesthetic.
 
-### `npm run eject`
+API Integration: Utilized asynchronous JavaScript and React's useEffect hook for seamless integration with provided APIs.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Mobile-First Responsive Design: Prioritized mobile usability with Tailwind CSS's responsive utility classes for smooth transitions across screen sizes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Error Handling: Implemented robust error handling mechanisms to gracefully manage API request failures and other potential issues, maintaining a smooth browsing experience.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+Before you begin, ensure you have the following installed on your machine:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Installation
 
-### Code Splitting
+1. Clone the repository to your local machine:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   git clone https://github.com/abhijeet-crypto/BookUsNow.git
+2. run - npm i
+3. run - npm start
 
-### Analyzing the Bundle Size
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Recommended Events
+2. Upcoming Events
+3. Responsive
+4. Horizontal scrolling
+5. Lazy loading: Upcoming events fetched page by page. The next page of events fetched from the API only when the user has scrolled to the end of the website.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Demo
 
-### Advanced Configuration
+![image](https://github.com/abhijeet-crypto/BookUsNow/assets/76946111/df42fffb-f374-407b-80a0-f89000066cc2)
+![image](https://github.com/abhijeet-crypto/BookUsNow/assets/76946111/f0c8d57d-0d22-48a4-9753-7db57c9fbc35)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Mobile version
+![image](https://github.com/abhijeet-crypto/BookUsNow/assets/76946111/b71b2fc2-d2f7-4d2d-8eb2-cdd9d956ad60)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## BookUsNow
+
+Direct to BookUsNow
+
+[Link to BookUsNow](https://bookusnow1.netlify.app/)
+
