@@ -18,20 +18,12 @@ const RecommendedCard = ({ data, img }) => {
     "December",
   ];
   const monthName = months[parseInt(month) - 1];
-
-  // Construct the output string
   const output = `${parseInt(day)} ${monthName}, ${parseInt(year)}`;
-
   const image = "image" + img + ".svg";
-  console.log(output, "hell", img);
-
   function convertMetersToKilometers(meters) {
-    // Convert meters to kilometers and round to two decimal places
     const kilometers = meters.toFixed(0);
     return kilometers;
   }
-
-  // Example usage:
   const metersString = data.distanceKm;
   const distanceInKilometers = convertMetersToKilometers(
     parseFloat(metersString)

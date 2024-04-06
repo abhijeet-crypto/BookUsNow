@@ -8,13 +8,11 @@ const RecommendedShows = () => {
   const fetchRecommendedShowsData = async () => {
     const res = await fetch(apiLink);
     const data = await res.json();
-    console.log("hello ", data);
     setShowData(data);
   };
   useEffect(() => {
     fetchRecommendedShowsData();
   }, []);
-  //   if (showData) console.log(showData.events[0].imgUrl);
   if (!showData) return;
   return (
     <div className="flex justify-center flex-col items-center text-white ">

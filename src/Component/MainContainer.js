@@ -1,5 +1,6 @@
 import React from "react";
 import RecommendedShows from "./RecommendedShows";
+import UpcommingEvent from "./UpcommingEvent";
 
 const MainContainer = () => {
   return (
@@ -23,6 +24,9 @@ const MainContainer = () => {
           </div>
           <div className="mt-48">
             <RecommendedShows></RecommendedShows>
+          </div>
+          <div>
+            <UpcommingEvent></UpcommingEvent>
           </div>
         </div>
       </div>
